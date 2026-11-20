@@ -1,6 +1,7 @@
 module com.example.projeto_hotel {
     requires javafx.controls;
     requires javafx.fxml;
+    requires atlantafx.fxml;
 
 
     opens com.example.projeto_hotel to javafx.fxml;
